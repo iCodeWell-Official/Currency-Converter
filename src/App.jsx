@@ -1,8 +1,11 @@
 import './App.css'
+import CurrencyConverter from './components/CurrencyConverter'
 
 function App() {
   return (
-    <h1 className='font-bold'>Hi</h1>
+    <main className='min-h-screen bg-gray-100 flex flex-col items-center justify-center'>
+      <CurrencyConverter />
+    </main>
   )
 }
 
